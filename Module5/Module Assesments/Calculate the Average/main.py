@@ -1,8 +1,9 @@
 def calculate_average(ls):
-    sum = 0
-    for item in ls:
-        sum += item
-    average = sum / len(ls)
+    # sum = 0
+    # for item in ls:
+    #     sum += item
+    total = sum(ls)
+    average = total / len(ls)
     
     return average
 
